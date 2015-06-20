@@ -1,10 +1,10 @@
 /* global Package */
 
 Package.describe({
-  name: 'aldeed:tabular',
-  summary: 'Datatables for large or small datasets in Meteor',
+  name: 'ryanswapp:unstyled-tabular',
+  summary: 'Datatables for large or small datasets in Meteor - Unstyled',
   version: '1.2.0',
-  git: 'https://github.com/aldeed/meteor-tabular.git'
+  git: 'https://github.com/ryanswapp/meteor-tabular.git'
 });
 
 Package.onUse(function(api) {
@@ -19,8 +19,6 @@ Package.onUse(function(api) {
   api.addFiles('server/tabular.js', 'server');
   api.addFiles([
     'client/lib/jquery.dataTables.min.js',
-    'client/lib/dataTables.bootstrap.js',
-    'client/lib/dataTables.bootstrap.css',
     'client/tabular.html',
     'client/util.js',
     'client/tableRecords.js',

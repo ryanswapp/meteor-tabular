@@ -1,5 +1,7 @@
-aldeed:tabular
+ryanswapp:unstyled-tabular
 =========================
+
+### Fork of aldeed:tabular
 
 A Meteor package that creates reactive [DataTables](http://datatables.net/) in an efficient way, allowing you to display the contents of enormous collections without impacting app performance.
 
@@ -14,7 +16,7 @@ Although this appears similar to the [jquery-datatables](https://github.com/Luma
 * This package has a much smaller codebase and includes less of the DataTables library.
 * This package allows you to specify a Spacebars template as a cell's content.
 * This package handles the reactive table updates in a different way.
-* This package is designed to work with Twitter Bootstrap 3
+* This package is designed to be unstyled
 
 ## Installation
 
